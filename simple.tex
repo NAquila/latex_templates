@@ -1,0 +1,51 @@
+\documentclass[11pt,a4paper, 
+english, swedish %% Make sure to put the main language last!
+]{article}
+\pdfoutput=1
+
+%% Andréas's custom package 
+%% (Will work for most purposes, but is mainly focused on physics.)
+\usepackage{custom_as}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}%% v v v v v v v v v v v v v v v v v v v v v v v v v v
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{Enkelt dokument}
+\author{Niklas Renström}
+\maketitle
+
+
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+
+
+\section{Uppgift 1}
+Hejhej
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% The bibliography %%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
+%% This bibliography ueses BibTeX
+\bibliographystyle{ieeetr}
+\bibliography{references}%requires a file named 'references.bib'
+%% Citations are as usual: \cite{example_article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Appendices %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\clearpage %% on a new page 
+%\appendix  %% This will change the page numbering to A1, A2, A3, ...;
+           %% and also change the sections to A, A.1, ...; B, B.1, ...
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}%% ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
